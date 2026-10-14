@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: meu-app
-          image: ghcr.io/jacksonmaarinho/meu-app:latest
+          image: ghcr.io/jacksonmaarinho/meu-app:4560005f9f305808939ce8aec4961fbf6ec7e97f
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
